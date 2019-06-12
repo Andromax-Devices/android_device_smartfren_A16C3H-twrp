@@ -1,1 +1,1 @@
-add_lunch_combo omni_rendang-eng
+add_lunch_combo omni_A16C3H-eng

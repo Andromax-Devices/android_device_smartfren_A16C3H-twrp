@@ -16,13 +16,13 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH := device/smartfren/rendang
+LOCAL_PATH := device/smartfren/A16C3H
 
 FORCE_32_BIT := true
 TARGET_BOARD_VENDOR := smartfren
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := MSM8916
+TARGET_BOOTLOADER_BOARD_NAME := MSM8909
 TARGET_NO_BOOTLOADER := true
 
 # Architecture
@@ -31,11 +31,11 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
-TARGET_CPU_VARIANT := cortex-a53
+TARGET_CPU_VARIANT := cortex-a7
 
 # Platform
-TARGET_BOARD_PLATFORM := msm8916
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
+TARGET_BOARD_PLATFORM := msm8909
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno304
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 androidboot.selinux=permissive
@@ -98,5 +98,3 @@ TW_INCLUDE_FUSE_EXFAT := true
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
 
-# Official
-BR_OFFICIAL := true
